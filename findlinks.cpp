@@ -19,8 +19,8 @@
 #include "utfcvutils.h"
 #include <args.h>
 #include <FileFunctions.h>  // GetFileInfo, AT_ISDIRECTORY
-#include "fhandle.h"
-#include "mmem.h"
+#include <fhandle.h>
+#include <mmem.h>
 
 // todo: skip <script> tags
 // todo: skip PNG, JPG, GIF

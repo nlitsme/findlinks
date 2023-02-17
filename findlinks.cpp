@@ -15,12 +15,12 @@
 
 #include <err/posix.h>
 #include <fcntl.h>
-#include "stringutils.h"
-#include "utfcvutils.h"
+#include <stringutils.h>
+#include <utfcvutils.h>
 #include <args.h>
 #include <FileFunctions.h>  // GetFileInfo, AT_ISDIRECTORY
-#include <fhandle.h>
-#include <mmem.h>
+#include <cpputils/fhandle.h>
+#include <cpputils/mmem.h>
 
 // todo: skip <script> tags
 // todo: skip PNG, JPG, GIF

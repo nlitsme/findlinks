@@ -5,13 +5,7 @@
 #include <set>
 #include <algorithm>
 
-#include <time.h>
-#ifdef _WIN32
-#include <sys/utime.h>
-#else
-#include <sys/time.h>
-#endif
-
+#include <ctime>
 
 #include <err/posix.h>
 #include <fcntl.h>
